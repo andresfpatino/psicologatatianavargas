@@ -1,5 +1,5 @@
 <?php
-if (!function_exists('fpsBaseTailwind')) :
+if (!function_exists('psicotvm')) :
     /**
      * Sets up theme defaults and registers support for various WordPress features.
      *
@@ -7,7 +7,7 @@ if (!function_exists('fpsBaseTailwind')) :
      * runs before the init hook. The init hook is too late for some features, such
      * as indicating support for post thumbnails.
      */
-    function fpsBaseTailwind()
+    function psicotvm()
     {
         /*
     * Make theme available for translation.
@@ -15,7 +15,7 @@ if (!function_exists('fpsBaseTailwind')) :
     * If you're building a theme based on Inspect It First, use a find and replace
     * to change 'frontporchsolutions' to the name of your theme in all the template files.
     */
-        load_theme_textdomain('fpsBaseTailwind', get_template_directory() . '/languages');
+        load_theme_textdomain('psicotvm', get_template_directory() . '/languages');
 
         // Add default posts and comments RSS feed links to head.
         add_theme_support('automatic-feed-links');
@@ -53,7 +53,7 @@ if (!function_exists('fpsBaseTailwind')) :
         ));
     }
 endif;
-add_action('after_setup_theme', 'fpsBaseTailwind');
+add_action('after_setup_theme', 'psicotvm');
 
 
 // Disable Guteneberg

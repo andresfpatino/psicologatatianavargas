@@ -1,8 +1,8 @@
 <?php
 //Add page number to Yoast meta description and page titles to avoid duplication (when using customised titles/descriptions)
-if (!function_exists('fpsBaseTailwind__pageNumber'))
+if (!function_exists('psicotvm__pageNumber'))
 {
-    function fpsBaseTailwind__pageNumber($s)
+    function psicotvm__pageNumber($s)
     {
         global $page;
         $paged = get_query_var('paged') ? get_query_var('paged') : 1;
@@ -11,15 +11,15 @@ if (!function_exists('fpsBaseTailwind__pageNumber'))
         return $s;
     }
 
-    add_filter('wpseo_metadesc', 'fpsBaseTailwind__pageNumber', 100, 1);
-    add_filter('wpseo_title', 'fpsBaseTailwind__pageNumber', 100, 1);
+    add_filter('wpseo_metadesc', 'psicotvm__pageNumber', 100, 1);
+    add_filter('wpseo_title', 'psicotvm__pageNumber', 100, 1);
 }
 
 
 
-function fpsBaseTailwind__yoastBottom()
+function psicotvm__yoastBottom()
 {
     return 'low';
 }
 
-add_filter('wpseo_metabox_prio', 'fpsBaseTailwind__yoastBottom');
+add_filter('wpseo_metabox_prio', 'psicotvm__yoastBottom');

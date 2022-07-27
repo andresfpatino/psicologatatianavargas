@@ -1,5 +1,5 @@
 <?php
-function fpsBaseTailwind__registerCTA() {
+function psicotvm__registerCTA() {
 
 	/**
 	 * Post Type: CTA'S.
@@ -37,7 +37,7 @@ function fpsBaseTailwind__registerCTA() {
 	register_post_type( "cta", $args );
 }
 
-add_action( 'init', 'fpsBaseTailwind__registerCTA' );
+add_action( 'init', 'psicotvm__registerCTA' );
 
 
 if( function_exists('acf_add_local_field_group') ):

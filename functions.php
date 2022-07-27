@@ -1,9 +1,9 @@
 <?php
 
 /**
- * fpsBaseTailwind First functions and definitions
+ * psicotvm First functions and definitions
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
- * @package fpsBaseTailwind
+ * @package psicotvm
  */
 
 

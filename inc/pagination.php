@@ -1,6 +1,6 @@
 <?php
 
-function fpsBaseTailwind__pagination($numpages = '', $pagerange = '', $paged='') {
+function psicotvm__pagination($numpages = '', $pagerange = '', $paged='') {
   if (empty($pagerange)) {
     $pagerange = 2;
   }

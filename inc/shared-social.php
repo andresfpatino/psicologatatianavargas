@@ -1,5 +1,5 @@
 <?php
-function fpsBaseTailwind__socialShare()
+function psicotvm__socialShare()
 {
     global $post;
     if (is_singular('post'))

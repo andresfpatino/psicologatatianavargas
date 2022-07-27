@@ -3,7 +3,7 @@
 /**
  * The template for displaying archive pages.
  * @link https://codex.wordpress.org/Template_Hierarchy
- * @package fpsBaseTailwind
+ * @package psicotvm
  */
 
 get_header(); ?>
@@ -83,9 +83,9 @@ $curauth = $wp_query->get_queried_object();
         <!-- List Post -->
 
         <!-- Pagination -->
-        <?php if (function_exists('fpsBaseTailwind__pagination')) : ?>
+        <?php if (function_exists('psicotvm__pagination')) : ?>
             <div class="pagination">
-                <?php fpsBaseTailwind__pagination($posts->max_num_pages, "", $paged); ?>
+                <?php psicotvm__pagination($posts->max_num_pages, "", $paged); ?>
             </div>
         <?php endif; ?>
         <!-- End Pagination -->

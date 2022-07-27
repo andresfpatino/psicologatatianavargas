@@ -1,7 +1,7 @@
 <?php
-if (function_exists('fpsBaseTailwind__authorField')) :
+if (function_exists('psicotvm__authorField')) :
 
-    fpsBaseTailwind__authorField(array(
+    psicotvm__authorField(array(
         'key' => 'group_5b3f98550147d',
         'title' => 'Author Fields',
         'fields' => array(

@@ -7,7 +7,7 @@
  * and that other 'pages' on your WordPress site may use a
  * different template.
  * @link https://codex.wordpress.org/Template_Hierarchy
- * @package fpsBaseTailwind
+ * @package psicotvm
  */
 
 get_header(); ?>
