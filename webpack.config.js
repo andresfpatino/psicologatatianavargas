@@ -6,7 +6,7 @@ const BrowserSyncPlugin = require("browser-sync-webpack-plugin");
 // change these variables to fit your project
 const jsPath = "./assets/src/js";
 const outputPath = "./assets/dist";
-const localDomain = "http://test.local/";
+const localDomain = "http://psicologatatianavargas.local/";
 const entryPoints = {
     // 'app' is the output name, people commonly use 'bundle'
     // you can have more than 1 entry point
