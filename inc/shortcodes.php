@@ -38,3 +38,9 @@
     } 
 
     add_shortcode('button', 'fps_buttons'); 
+
+//Actual Year
+function uta2022_displaydate(){
+    return date('Y');
+}
+add_shortcode('date', 'uta2022_displaydate');

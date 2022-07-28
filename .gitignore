@@ -23,6 +23,7 @@ node_modules/
 *.sqlite
 
 # Ignore extra
-.vscode/*
+.vscode/
 **/.DS_Store
 **/.editorconfig
+**/OAuth-API.json

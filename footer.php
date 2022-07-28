@@ -11,13 +11,7 @@
             </div>
             <!--/ Content Page -->
 
-            <?php
-            if (!is_404()) {
-                if (!is_home()) {
-                    get_template_part('template-parts/cta', 'footer');
-                }
-            }
-            ?>
+
 
             <!-- Footer -->
             <footer class="site-footer bg-gray-100">
@@ -25,7 +19,8 @@
                     <div class="site__footer__content flex flex-wrap px-4 justify-center lg:justify-start">
                         
                         <div class="site__footer__logo w-full md:w-3/12 text-center lg:text-left mb-4">
-
+                        <?php
+                        $GETlogo = get_field('logo_site', 'option'); ?>
                             <a href="<?php echo esc_url(get_bloginfo('url')); ?>">
                                 <?php if ($GETlogo) { 
                                     fps_get_Image($GETlogo);
@@ -52,7 +47,7 @@
 
                             <!-- copyright -->
                             <div class="copyright text-center">
-                                <?php the_field('fps_copyright', 'option'); ?>
+                                <?php the_field('copyright', 'option'); ?>
                             </div>
                             <!--/ copyright -->
 

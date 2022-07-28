@@ -28,24 +28,20 @@ require('inc/author-fields.php');
 /** Yoast Meta Description and page titles **/
 require('inc/yoast-meta-description.php');
 
-/** CTA'S post type **/
-require('inc/cta-post-type.php');
-
-
 /**
 *** Scripts FPS Function
 **/
 if (function_exists('acf_add_options_page')) {
     // parent.
 	acf_add_options_page(array(
-		'page_title'  => __('FPS Scripts'),
-		'menu_title'  => __('FPS Scripts'),
+		'page_title'  => __('Scripts'),
+		'menu_title'  => __('Scripts'),
 		'redirect'    => false,
 	));
 
     acf_add_options_page(array(
-		'page_title'  => __('FPS Options'),
-		'menu_title'  => __('FPS Options'),
+		'page_title'  => __('Configuración'),
+		'menu_title'  => __('Configuración'),
 		'redirect'    => false,
 	));
 
