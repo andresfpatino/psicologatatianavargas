@@ -55,6 +55,12 @@
                     </div>
                 </div>
             </footer>
+            <div class="flex items-center justify-center">
+
+    <?php fps_get_social_icons(); ?>
+
+</div>
+
             <!--/ Footer -->
         </div>
     <?php wp_footer(); ?>

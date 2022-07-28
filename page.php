@@ -23,14 +23,6 @@ get_header(); ?>
             </div>
         </div>
     </div>
-</div>
+</div> <?php
 
-
-<div class="flex items-center justify-center">
-
-    <?php fps_get_social_icons(); ?>
-
-</div>
-
-<?php
 get_footer();

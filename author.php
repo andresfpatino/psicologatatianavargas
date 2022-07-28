@@ -41,19 +41,6 @@ $curauth = $wp_query->get_queried_object();
                         <?php the_author_meta('last_name'); ?>
                     </h2>
                     <p><?php the_author_meta('description'); ?></p>
-                    <div class="social-icons">
-                        <?php
-                        if (have_rows('social_icons_author', 'user_' . $author_id)) :
-                            while (have_rows('social_icons_author', 'user_' . $author_id)) : the_row();
-                                $social = get_sub_field('social_icon');
-                        ?>
-                                <a href="<?php the_sub_field('social_profile'); ?>" target="_blank" data-link-type="social" data-social-network="<?php echo $social['value']; ?>">
-                                    <span class="fpsIcon-<?php echo $social['value']; ?>"></span>
-                                </a>
-                        <?php endwhile;
-                        endif; ?>
-                    </div>
-                    <!--/Social Icons-->
                 </div>
             </div>
         </div><!-- .entry-content -->
