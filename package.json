@@ -49,6 +49,7 @@
         "slick-carousel": "^1.8.1",
         "style-loader": "^3.3.1",
         "tailwindcss": "^3.0.22",
+        "terser-webpack-plugin": "^5.3.3",
         "url-loader": "^4.1.1",
         "webpack": "^5.69.0",
         "webpack-cli": "^4.9.2",

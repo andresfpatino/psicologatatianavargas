@@ -1485,9 +1485,6 @@ blockquote p {
 .\!hidden {
   display: none !important;
 }
-.h-48 {
-  height: 12rem;
-}
 .w-full {
   width: 100%;
 }

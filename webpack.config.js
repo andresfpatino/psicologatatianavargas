@@ -2,6 +2,7 @@ const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinizerPlugin = require("css-minimizer-webpack-plugin");
 const BrowserSyncPlugin = require("browser-sync-webpack-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
 
 // change these variables to fit your project
 const jsPath = "./assets/src/js";
@@ -83,6 +84,7 @@ module.exports = {
             // For webpack@5 you can use the `...` syntax to extend existing minimizers (i.e. `terser-webpack-plugin`), uncomment the next line
             // `...`,
             new CssMinizerPlugin(),
+            new TerserPlugin(),
         ],
     },
 };
