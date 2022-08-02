@@ -39,6 +39,11 @@
                                     wp_nav_menu(array('theme_location' => 'menu-2'));
                                 } ?>
                             </div>
+                            <div class="copyright text-center">
+                                <?php the_field('copyright', 'option'); ?>
+                            </div>
+
+                            <?php fps_get_social_icons(); ?>
                             <!--/Footer Menu-->
 
                         </div>
@@ -46,9 +51,7 @@
                         <div class="site-footer__bottom">
 
                             <!-- copyright -->
-                            <div class="copyright text-center">
-                                <?php the_field('copyright', 'option'); ?>
-                            </div>
+
                             <!--/ copyright -->
 
                         </div>
@@ -57,7 +60,7 @@
             </footer>
             <div class="flex items-center justify-center">
 
-    <?php fps_get_social_icons(); ?>
+    
 
 </div>
 

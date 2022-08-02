@@ -7,18 +7,18 @@ module.exports = {
         extend: {
             colors: {
                 dark: {
-                    1: "#031b4c",
+                    1: "#3a3737",
                     2: "#2b426f",
                     3: "#4f658f",
                 },
                 light: {
-                    1: "#f6f9fd",
+                    1: "#f0ebeb",
                     2: "#e7ebf3",
                     3: "#92a8d1",
                 },
                 primary: {
-                    DEFAULT: "#E86969",
-                    hover: "#D65959",
+                    DEFAULT: "#ba9bc4",
+                    hover: "#b9d3f1",
                     lighter: "#F19898"
                 },
                 secondary: {
@@ -30,8 +30,9 @@ module.exports = {
                 white: "#fff",
             },
 
-            fontFamily: { 
-                inter: "Inter"
+            fontFamily: {
+                lato: "Lato",
+                comic: "Comic Neue",
             },
             spacing: {
                 '13': '3.25rem',

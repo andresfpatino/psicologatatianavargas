@@ -10,8 +10,22 @@
             }
 
             a {
-                @apply text-dark-1 hover:text-dark-3 font-semibold hover:underline hover:decoration-primary;
+                @apply text-dark-1 text-lg;
             }
         }
     }
+
+    .menu{
+        &-menu-container{
+            @apply w-full;
+        }
+    }
+
+    .toggle-sidebar{
+        @apply border-2 border-primary-lighter py-1 px-2 rounded-sm ml-2;
+        path{
+            @apply fill-primary-lighter;
+        }
+    }
+
 }

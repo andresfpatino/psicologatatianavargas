@@ -597,7 +597,7 @@ html {
 }
 
 body {
-    @apply font-normal text-dark-1 font-inter;
+    @apply text-dark-1 font-lato font-light bg-light-1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: rem(16px);
@@ -617,17 +617,13 @@ body {
     .h4,
     .h5,
     .h6 {
-        @apply mb-4 font-bold text-dark-1;
+        @apply mb-4 font-comic font-semibold;
         hyphens: none;
         letter-spacing: -0.02em;
         word-break: keep-all;
         word-wrap: normal;
         a {
             @apply text-light-3;
-
-            &:hover {
-                @apply text-primary;
-            }
         }
     }
     h1,
@@ -709,9 +705,6 @@ p {
 a {
     @apply text-primary;
     @mixin fade;
-    &:hover {
-        @apply text-secondary;
-    }
 }
 
 input[type="text"],
